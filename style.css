@@ -13,40 +13,37 @@ h3 {
     color: white;
 }
 
-.topnav {
-    overflow: hidden;
-    background-color: #131720;
-    padding: 10px;
-}
 
-.topnav a{
-    float: left;
-    display: block;
-    color: white;
+.mainSection{
+    display: flex;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 1.2 rem;
-    text-transform: uppercase;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
 }
 
-.topnav .search-container{
-    float: right;
+.appName{
+    font-size: 50px;
+    text-decoration: none;
+    color: #127b9e;
+    font-weight: 600;
+    margin-bottom: 20px;
 }
 
 form{
     background: #151f30;
-    width: 300px;
+    width: 400px;
     height: 40px;
     border-radius: 15px;
     display: flex;
     align-items: center;
+    margin-bottom: 15px;
 }
 
 input{
     all: unset;
     font: 15px;
-    color: #fff;
+    color: #f7b33d;
     height: 100%;
     width: 100%;
     padding: 5px 10px;
@@ -60,7 +57,7 @@ input{
 
 .column{
     float: left;
-    width: 25%;
+    width: 20%;
     padding: 10px 10px;
 }
 
@@ -74,5 +71,4 @@ input{
 
 .card h3{
     font-size: 14px;
-    margin-top: 10px;
 }
